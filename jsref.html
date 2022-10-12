@@ -4,31 +4,30 @@
 <head>
   <meta charset="utf-8">
   <title>JS Reference</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
   <style media="screen">
-
-
-  section {
-    position: relative;
-    color: #FFF;
-    padding: 20px;
-    margin: 20px auto;
-  }
-
-  @media only screen and (min-width: 992px) {
     section {
-      font-size: 0.75em;
-      -webkit-columns: 3 350px;
-      -moz-columns: 350px;
-      columns: 3 350px;
-      -webkit-column-gap: 2em;
-      -moz-column-gap: 2em;
-      column-gap: 2em;
       position: relative;
       color: #FFF;
       padding: 20px;
       margin: 20px auto;
     }
-  }
+
+    @media only screen and (min-width: 992px) {
+      section {
+        font-size: 0.75em;
+        -webkit-columns: 3 350px;
+        -moz-columns: 350px;
+        columns: 3 350px;
+        -webkit-column-gap: 2em;
+        -moz-column-gap: 2em;
+        column-gap: 2em;
+        position: relative;
+        color: #FFF;
+        padding: 20px;
+        margin: 20px auto;
+      }
+    }
 
     div {
       -webkit-column-break-inside: avoid;
@@ -52,11 +51,14 @@
       text-align: left;
       border-collapse: collapse;
     }
-    table.minimalistBlack td, table.minimalistBlack th {
+
+    table.minimalistBlack td,
+    table.minimalistBlack th {
       border: 1px solid #FFFFFF;
       padding: 5px 4px;
       color: #000;
     }
+
     table.minimalistBlack thead {
       background: #CFCFCF;
       background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
@@ -64,12 +66,12 @@
       background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
       border-bottom: 3px solid #FFFFFF;
     }
+
     table.minimalistBlack thead th {
       font-weight: bold;
       color: #000000;
       text-align: left;
     }
-
   </style>
 </head>
 
@@ -152,28 +154,28 @@
     <div>
       <h2>Logical Operators</h3>
 
-      <table class="minimalistBlack">
-        <thead>
-          <tr>
-            <th>Symbol</th>
-            <th>Meaning</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><code>!</code></td>
-            <td>not</td>
-          </tr>
-          <tr>
-            <td><code>&&</code></td>
-            <td>and</td>
-          </tr>
-          <tr>
-            <td><code>||</code></td>
-            <td>or</td>
-          </tr>
-        </tbody>
-      </table>
+        <table class="minimalistBlack">
+          <thead>
+            <tr>
+              <th>Symbol</th>
+              <th>Meaning</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>!</code></td>
+              <td>not</td>
+            </tr>
+            <tr>
+              <td><code>&&</code></td>
+              <td>and</td>
+            </tr>
+            <tr>
+              <td><code>||</code></td>
+              <td>or</td>
+            </tr>
+          </tbody>
+        </table>
     </div>
 
     <div>

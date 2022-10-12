@@ -32,15 +32,15 @@ module.exports = [{
 }, {
   title: 'String-1',
   name: 'makeTags',
-  question: `The web is built with HTML strings like "<i>Yay</i>" which draws
-            Yay as italic text. In this example, the "i" tag makes <i> and </i>
+  question: `The web is built with HTML strings like "<em>Yay</em>" which draws
+            Yay as italic text. In this example, the "em" tag makes <em> and </em>
             which surround the word "Yay". Given tag and word strings, create the HTML
-            string with tags around the word, e.g. "<i>Yay</i>".`,
+            string with tags around the word, e.g. "<em>Yay</em>".`,
   inputs: [
     "('em', 'Yay')",
     "('strong', 'Hello')",
-    "('cite', 'Yay')",
-    "('address', 'here')",
+    "('p', 'Yay')",
+    "('code', 'here')",
     "('body', 'Heart')",
     "('em', 'em')",
     "('strong', 'i')",

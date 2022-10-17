@@ -26,7 +26,8 @@ module.exports = function (exercise, exerciseName) {
             else {
                 result = solutions[exerciseName](...input);
                 result = result.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-                $('.examples').append(`<li>${exerciseName}${exercise.inputs[i].replaceAll('<', '&lt;').replace('>', '&gt;')} → ${result}</li>`);
+                let temp = exercise.inputs[i].replaceAll('<', '&lt;').replaceAll('>', '&gt;')
+                $('.examples').append(`<li>${exerciseName}${temp} → ${result}</li>`);
             }
         }
         catch (e) {

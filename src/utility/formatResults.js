@@ -3,6 +3,8 @@ let _ = require("lodash");
 /** Return row for html table **/
 function formatResults(funcName, inputStr, idealOutput, output) {
     const ok = _.isEqual(output, idealOutput);
+    output = output.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+    idealOutput = idealOutput.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
     return `<tr>
             <td>${funcName}${inputStr} → ${idealOutput}</td>
             <td>${output}</td>

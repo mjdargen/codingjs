@@ -558,9 +558,9 @@ module.exports = [{
   ],
 },
 {
-  "question": "Given a string, return a string where for every char in the original, there are two chars.",
-  "title": "String-2",
-  "name": "doubleChar",
+  question: "Given a string, return a string where for every char in the original, there are two chars.",
+  title: "String-2",
+  name: "doubleChar",
   inputs: [
     "('The')",
     "('AAbb')",
@@ -574,10 +574,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Return the number of times that the string \"hi\" appears anywhere in the given string.",
-  "title": "String-2",
-  "name": "countHi",
-  "inputs": [
+  question: "Return the number of times that the string \"hi\" appears anywhere in the given string.",
+  title: "String-2",
+  name: "countHi",
+  inputs: [
     "('abc hi ho')",
     "('ABChi hi')",
     "('hihi')",
@@ -590,10 +590,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Return true if the string \"cat\" and \"dog\" appear the same number of times in the given string.",
-  "title": "String-2",
-  "name": "catDog",
-  "inputs": [
+  question: "Return true if the string \"cat\" and \"dog\" appear the same number of times in the given string.",
+  title: "String-2",
+  name: "catDog",
+  inputs: [
     "('catdog')",
     "('catcat')",
     "('1cat1cadodog')",
@@ -610,10 +610,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Return the number of times that the string \"code\" appears anywhere in the given string, except we'll accept any letter for the 'd', so \"cope\" and \"cooe\" count.",
-  "title": "String-2",
-  "name": "countCode",
-  "inputs": [
+  question: "Return the number of times that the string \"code\" appears anywhere in the given string, except we'll accept any letter for the 'd', so \"cope\" and \"cooe\" count.",
+  title: "String-2",
+  name: "countCode",
+  inputs: [
     "('aaacodebbb')",
     "('codexxcode')",
     "('cozexxcope')",
@@ -631,10 +631,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given two strings, return true if either of the strings appears at the very end of the other string, ignoring upper/lower case differences (in other words, the computation should not be \"case sensitive\"). Note:  str.toLowerCase() returns the lowercase version of a string.",
-  "title": "String-2",
-  "name": "endOther",
-  "inputs": [
+  question: "Given two strings, return true if either of the strings appears at the very end of the other string, ignoring upper/lower case differences (in other words, the computation should not be \"case sensitive\"). Note:  str.toLowerCase() returns the lowercase version of a string.",
+  title: "String-2",
+  name: "endOther",
+  inputs: [
     "('Hiabc', 'abc')",
     "('AbC', 'HiaBc')",
     "('abc', 'abXabc')",
@@ -652,10 +652,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Return true if the given string contains an appearance of \"xyz\" where the xyz is not directly preceeded by a period (.). So \"xxyz\" counts but \"x.xyz\" does not.",
-  "title": "String-2",
-  "name": "xyzThere",
-  "inputs": [
+  question: "Return true if the given string contains an appearance of \"xyz\" where the xyz is not directly preceeded by a period (.). So \"xxyz\" counts but \"x.xyz\" does not.",
+  title: "String-2",
+  name: "xyzThere",
+  inputs: [
     "('abcxyz')",
     "('abc.xyz')",
     "('xyz.abc')",
@@ -673,10 +673,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Return true if the given string contains a \"bob\" string, but where the middle 'o' char can be any char.",
-  "title": "String-2",
-  "name": "bobThere",
-  "inputs": [
+  question: "Return true if the given string contains a \"bob\" string, but where the middle 'o' char can be any char.",
+  title: "String-2",
+  name: "bobThere",
+  inputs: [
     "('abcbob')",
     "('b9b')",
     "('bac')",
@@ -693,10 +693,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "We'll say that a String is xy-balanced if for all the 'x' chars in the string, there exists a 'y' char somewhere later in the string. So \"xxy\" is balanced, but \"xyx\" is not. One 'y' can balance multiple 'x's. Return true if the given string is xy-balanced.",
-  "title": "String-2",
-  "name": "xyBalance",
-  "inputs": [
+  question: "We'll say that a String is xy-balanced if for all the 'x' chars in the string, there exists a 'y' char somewhere later in the string. So \"xxy\" is balanced, but \"xyx\" is not. One 'y' can balance multiple 'x's. Return true if the given string is xy-balanced.",
+  title: "String-2",
+  name: "xyBalance",
+  inputs: [
     "('aaxbby')",
     "('aaxbb')",
     "('yaaxbb')",
@@ -718,10 +718,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given two strings, a and b, create a bigger string made of the first char of a, the first char of b, the second char of a, the second char of b, and so on. Any leftover chars go at the end of the result.",
-  "title": "String-2",
-  "name": "mixString",
-  "inputs": [
+  question: "Given two strings, a and b, create a bigger string made of the first char of a, the first char of b, the second char of a, the second char of b, and so on. Any leftover chars go at the end of the result.",
+  title: "String-2",
+  name: "mixString",
+  inputs: [
     "('abc', 'xyz')",
     "('Hi', 'There')",
     "('xxxx', 'There')",
@@ -738,10 +738,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given a string and an int n, return a string made of n repetitions of the last n characters of the string. You may assume that n is between 0 and the length of the string, inclusive.",
-  "title": "String-2",
-  "name": "repeatEnd",
-  "inputs": [
+  question: "Given a string and an int n, return a string made of n repetitions of the last n characters of the string. You may assume that n is between 0 and the length of the string, inclusive.",
+  title: "String-2",
+  name: "repeatEnd",
+  inputs: [
     "('Hello', 3)",
     "('Hello', 2)",
     "('Hello', 1)",
@@ -753,10 +753,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given a string and an int n, return a string made of the first n characters of the string, followed by the first n-1 characters of the string, and so on. You may assume that n is between 0 and the length of the string, inclusive (i.e. n >= 0 and n <= str.length()).",
-  "title": "String-2",
-  "name": "repeatFront",
-  "inputs": [
+  question: "Given a string and an int n, return a string made of the first n characters of the string, followed by the first n-1 characters of the string, and so on. You may assume that n is between 0 and the length of the string, inclusive (i.e. n >= 0 and n <= str.length()).",
+  title: "String-2",
+  name: "repeatFront",
+  inputs: [
     "('Chocolate', 4)",
     "('Chocolate', 3)",
     "('Ice Cream', 2)",
@@ -769,10 +769,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given two strings, word and a separator sep, return a big string made of count occurrences of the word, separated by the separator string.",
-  "title": "String-2",
-  "name": "repeatSeparator",
-  "inputs": [
+  question: "Given two strings, word and a separator sep, return a big string made of count occurrences of the word, separated by the separator string.",
+  title: "String-2",
+  name: "repeatSeparator",
+  inputs: [
     "('Word', 'X', 3)",
     "('This', 'And', 2)",
     "('This', 'And', 1)",
@@ -787,10 +787,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given a string, consider the prefix string made of the first N chars of the string. Does that prefix string appear somewhere else in the string? Assume that the string is not empty and that N is in the range 1..str.length().",
-  "title": "String-2",
-  "name": "prefixAgain",
-  "inputs": [
+  question: "Given a string, consider the prefix string made of the first N chars of the string. Does that prefix string appear somewhere else in the string? Assume that the string is not empty and that N is in the range 1..str.length().",
+  title: "String-2",
+  name: "prefixAgain",
+  inputs: [
     "('abXYabc', 1)",
     "('abXYabc', 2)",
     "('abXYabc', 3)",
@@ -806,10 +806,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given a string, does \"xyz\" appear in the middle of the string? To define middle, we'll say that the number of chars to the left and right of the \"xyz\" must differ by at most one. This problem is harder than it looks.",
-  "title": "String-2",
-  "name": "xyzMiddle",
-  "inputs": [
+  question: "Given a string, does \"xyz\" appear in the middle of the string? To define middle, we'll say that the number of chars to the left and right of the \"xyz\" must differ by at most one. This problem is harder than it looks.",
+  title: "String-2",
+  name: "xyzMiddle",
+  inputs: [
     "('AAxyzBB')",
     "('AxyzBB')",
     "('AxyzBBB')",
@@ -834,10 +834,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "A sandwich is two pieces of bread with something in between. Return the string that is between the first and last appearance of \"bread\" in the given string, or return the empty string \"\" if there are not two pieces of bread.",
-  "title": "String-2",
-  "name": "getSandwich",
-  "inputs": [
+  question: "A sandwich is two pieces of bread with something in between. Return the string that is between the first and last appearance of \"bread\" in the given string, or return the empty string \"\" if there are not two pieces of bread.",
+  title: "String-2",
+  name: "getSandwich",
+  inputs: [
     "('breadjambread')",
     "('xxbreadjambreadyy')",
     "('xxbreadyy')",
@@ -853,10 +853,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Returns true if for every '*' (star) in the string, if there are chars both immediately before and after the star, they are the same.",
-  "title": "String-2",
-  "name": "sameStarChar",
-  "inputs": [
+  question: "Returns true if for every '*' (star) in the string, if there are chars both immediately before and after the star, they are the same.",
+  title: "String-2",
+  name: "sameStarChar",
+  inputs: [
     "('xy*yzz')",
     "('xy*zzz')",
     "('*xa*az')",
@@ -876,10 +876,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given a string, compute a new string by moving the first char to come after the next two chars, so \"abc\" yields \"bca\". Repeat this process for each subsequent group of 3 chars, so \"abcdef\" yields \"bcaefd\". Ignore any group of fewer than 3 chars at the end.",
-  "title": "String-2",
-  "name": "oneTwo",
-  "inputs": [
+  question: "Given a string, compute a new string by moving the first char to come after the next two chars, so \"abc\" yields \"bca\". Repeat this process for each subsequent group of 3 chars, so \"abcdef\" yields \"bcaefd\". Ignore any group of fewer than 3 chars at the end.",
+  title: "String-2",
+  name: "oneTwo",
+  inputs: [
     "('abc')",
     "('tca')",
     "('tcagdo')",
@@ -899,10 +899,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Look for patterns like \"zip\" and \"zap\" in the string -- length-3, starting with 'z' and ending with 'p'. Return a string where for all such words, the middle letter is gone, so \"zipXzap\" yields \"zpXzp\".",
-  "title": "String-2",
-  "name": "zipZap",
-  "inputs": [
+  question: "Look for patterns like \"zip\" and \"zap\" in the string -- length-3, starting with 'z' and ending with 'p'. Return a string where for all such words, the middle letter is gone, so \"zipXzap\" yields \"zpXzp\".",
+  title: "String-2",
+  name: "zipZap",
+  inputs: [
     "('zipXzap')",
     "('zopzop')",
     "('zzzopzop')",
@@ -918,10 +918,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Return a version of the given string, where for every star (*) in the string the star and the chars immediately to its left and right are gone. So \"ab*cd\" yields \"ad\" and \"ab**cd\" also yields \"ad\".",
-  "title": "String-2",
-  "name": "starOut",
-  "inputs": [
+  question: "Return a version of the given string, where for every star (*) in the string the star and the chars immediately to its left and right are gone. So \"ab*cd\" yields \"ad\" and \"ab**cd\" also yields \"ad\".",
+  title: "String-2",
+  name: "starOut",
+  inputs: [
     "('ab*cd')",
     "('ab**cd')",
     "('sm*eilly')",
@@ -943,10 +943,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given a string and a non-empty word string, return a version of the original String where all chars have been replaced by pluses (\"+\"), except for appearances of the word string which are preserved unchanged.",
-  "title": "String-2",
-  "name": "plusOut",
-  "inputs": [
+  question: "Given a string and a non-empty word string, return a version of the original String where all chars have been replaced by pluses (\"+\"), except for appearances of the word string which are preserved unchanged.",
+  title: "String-2",
+  name: "plusOut",
+  inputs: [
     "('12xy34', 'xy')",
     "('12xy34', '1')",
     "('12xy34xyabcxy', 'xy')",
@@ -960,10 +960,10 @@ module.exports = [{
   ]
 },
 {
-  "question": "Given a string and a non-empty word string, return a string made of each char just before and just after every appearance of the word in the string. Ignore cases where there is no char before or after the word, and a char may be included twice if it is between two words.",
-  "title": "String-2",
-  "name": "wordEnds",
-  "inputs": [
+  question: "Given a string and a non-empty word string, return a string made of each char just before and just after every appearance of the word in the string. Ignore cases where there is no char before or after the word, and a char may be included twice if it is between two words.",
+  title: "String-2",
+  name: "wordEnds",
+  inputs: [
     "('abcXY123XYijk', 'XY')",
     "('XY123XY', 'XY')",
     "('XY1XY', 'XY')",

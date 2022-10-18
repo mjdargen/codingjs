@@ -17,17 +17,19 @@ module.exports = function (exercise, exerciseName) {
 
                 let inputCopy = inputParser(exercise, exercise.inputs[i]);
                 let formattedInput = prettyPrintMap(inputCopy, "parentheses");
-                formattedInput = formattedInput.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
                 result = solutions[exerciseName](inputCopy);
+                if (typeof result === "string") {
+                    result = result.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+                }
                 let formattedResult = prettyPrintMap(result);
-                formattedResult = formattedResult.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
                 $('.examples').append(`<li>${exerciseName}${formattedInput} → ${formattedResult}</li>`);
             }
             else {
                 result = solutions[exerciseName](...input);
-                result = result.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-                let temp = exercise.inputs[i].replaceAll('<', '&lt;').replaceAll('>', '&gt;')
-                $('.examples').append(`<li>${exerciseName}${temp} → ${result}</li>`);
+                if (typeof result === "string") {
+                    result = result.replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+                }
+                $('.examples').append(`<li>${exerciseName}${exercise.inputs[i]} → ${result}</li>`);
             }
         }
         catch (e) {

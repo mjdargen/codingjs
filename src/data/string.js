@@ -119,26 +119,6 @@ module.exports = [{
                 char, so "Hello" yields "ell". The string length will be at least 2.`,
 }, {
   title: 'String-1',
-  name: 'comboString',
-  inputs: [
-    "('Hello', 'hi')",
-    "('Hi', 'Hello')",
-    "('aaa', 'b')",
-    "('b', 'aaa')",
-    "('aaa', '')",
-    "('', 'bb')",
-    "('aaa', '1234')",
-    "('aaa', 'bb')",
-    "('a', 'bb')",
-    "('bb', 'a')",
-    "('a', 'bb')",
-    "('xyz', 'ab')",
-  ],
-  question: `Given 2 strings, a and b, return a string of the form short+long+short,
-                with the shorter string on the outside and the longer string on the inside.
-                The strings will not be the same length, but they may be empty (length 0).`,
-}, {
-  title: 'String-1',
   name: 'nonStart',
   inputs: [
     "('Hello', 'There')",
@@ -225,6 +205,26 @@ module.exports = [{
   ],
   question: `Given a string of even length, return a string made of the middle two chars, so the string "string" yields "ri".
               The string length will be at least 2.`,
+}, {
+  title: 'String-1',
+  name: 'comboString',
+  inputs: [
+    "('Hello', 'hi')",
+    "('Hi', 'Hello')",
+    "('aaa', 'b')",
+    "('b', 'aaa')",
+    "('aaa', '')",
+    "('', 'bb')",
+    "('aaa', '1234')",
+    "('aaa', 'bb')",
+    "('a', 'bb')",
+    "('bb', 'a')",
+    "('a', 'bb')",
+    "('xyz', 'ab')",
+  ],
+  question: `Given 2 strings, a and b, return a string of the form short+long+short,
+                with the shorter string on the outside and the longer string on the inside.
+                The strings will not be the same length, but they may be empty (length 0).`,
 }, {
   title: 'String-1',
   name: 'endsLy',

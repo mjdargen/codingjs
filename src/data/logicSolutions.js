@@ -413,11 +413,12 @@ solutions.makeChocolate = function (small, big, goal) {
 };
 
 solutions.pawn = function (x1, y1, x2, y2) {
-  // if it's moving forward just 1 space
-  if (y2 > y1 && y2 - y1 < 2) {
+  if (x1 !== x2) {
+    return false;
+  }
+  if (y2 - y1 === 1) {
     return true;
   }
-  // if it's moving forward two spaces and it was at the starting place
   else if (y1 === 2 && y2 > y1 && y2 - y1 < 3) {
     return true;
   }

@@ -412,32 +412,65 @@ solutions.makeChocolate = function (small, big, goal) {
   return smallsNeeded;
 };
 
+solutions.pawn = function (x1, y1, x2, y2) {
+  // if it's moving forward just 1 space
+  if (y2 > y1 && y2 - y1 < 2) {
+    return true;
+  }
+  // if it's moving forward two spaces and it was at the starting place
+  else if (y1 === 2 && y2 > y1 && y2 - y1 < 3) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
 
-// {
-//   title: 'AP-1',
-//   name: 'scoresIncreasing',
-//   question: 'Given an array of scores, return true if each score is equal or greater than the one before. The array will be length 2 or more.',
-//   inputs: [
-//     '([1, 3, 4])',
-//     '([1, 3, 2])',
-//     '([1, 1, 4])',
-//     '([1, 1, 2, 4, 4, 7])',
-//     '([1, 1, 2, 4, 3, 7])',
-//     '([-5, 4, 11])',
-//   ],
-// },
-// {
-//   title: 'AP-1',
-//   name: 'scores100',
-//   question: 'Given an array of scores, return true if there are scores of 100 next to each other in the array. The array length will be at least 2.',
-//   inputs: [
-//     '([1, 100, 100])',
-//     '([1, 100, 99, 100])',
-//     '([100, 1, 100, 100])',
-//     '([100, 1, 100, 1])',
-//     '([1, 2, 3, 4, 5])',
-//     '([1, 2, 100, 4, 5])',
-//   ],
-// },
+solutions.rook = function (x1, y1, x2, y2) {
+  if (x1 === x2 || y1 === y2) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
+
+solutions.king = function (x1, y1, x2, y2) {
+  if (Math.abs(x1 - x2) <= 1 && Math.abs(y1 - y2) <= 1) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
+
+solutions.bishop = function (x1, y1, x2, y2) {
+  if (Math.abs(x1 - x2) === Math.abs(y1 - y2)) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
+
+solutions.queen = function (x1, y1, x2, y2) {
+  if (Math.abs(x1 - x2) === Math.abs(y1 - y2) || x1 === x2 || y1 === y2) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
+
+solutions.knight = function (x1, y1, x2, y2) {
+  let dx = Math.abs(x1 - x2);
+  let dy = Math.abs(y1 - y2);
+  if (dx == 1 && dy == 2 || dx == 2 && dy == 1) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
 
 module.exports = solutions;

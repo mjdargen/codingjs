@@ -82,8 +82,6 @@ module.exports = [
             '(8)',
             '(9)',
             '(10)',
-            '(20)',
-            '(30)',
         ],
         question: `Given an integer n, print the sum 1! + 2! + 3! + ... + n!. This problem has a solution with only one loop, so try to discover it. And don't use the math library!`,
     }, {

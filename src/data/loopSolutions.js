@@ -47,7 +47,7 @@ solutions.addingFactorials = function (n) {
     return partialSum;
 };
 
-solutions.prime = function (n) {
+solutions.primes = function (n) {
     // return partialSum;
     for (let i = 2; i < n; i++) {
         if (num % i == 0) return false

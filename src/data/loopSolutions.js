@@ -8,7 +8,7 @@ solutions.leastDivisor = function (n) {
         div++;
     }
     return div;
-}
+};
 
 solutions.powerTwo = function (n) {
     let two_in_power = 2;
@@ -18,4 +18,6 @@ solutions.powerTwo = function (n) {
         power++;
     }
     return power - 1;
-}
+};
+
+module.exports = solutions;

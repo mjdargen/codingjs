@@ -20,4 +20,39 @@ solutions.powerTwo = function (n) {
     return power - 1;
 };
 
+solutions.morningJog = function (x, y) {
+    let i = 1;
+    while (x < y) {
+        x *= 1.1;
+        i += 1;
+    }
+    return i;
+};
+
+solutions.sumCubes = function (n) {
+    let res = 0;
+    for (let i = 1; i < n + 1; i++) {
+        res += i ** 3;
+    }
+    return res;
+};
+
+solutions.addingFactorials = function (n) {
+    let partialFactorial = 1;
+    let partialSum = 0;
+    for (let i = 1; i < n + 1; i++) {
+        partialFactorial *= i;
+        partialSum += partialFactorial;
+    }
+    return partialSum;
+};
+
+solutions.prime = function (n) {
+    // return partialSum;
+    for (let i = 2; i < n; i++) {
+        if (num % i == 0) return false
+    }
+    return true;
+};
+
 module.exports = solutions;

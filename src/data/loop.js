@@ -1,6 +1,6 @@
 module.exports = [
     {
-        title: 'Loop-1',
+        title: 'while-1',
         name: 'leastDivisor',
         inputs: [
             '(15)',
@@ -17,7 +17,7 @@ module.exports = [
         ],
         question: `Given an integer not less than 2. Print its smallest integer divisor greater than 1.`,
     }, {
-        title: 'Loop-1',
+        title: 'while-1',
         name: 'powerTwo',
         inputs: [
             '(50)',
@@ -34,5 +34,75 @@ module.exports = [
             '(15431543)',
         ],
         question: `For a given integer N, find the greatest integer x where 2^x is less than or equal to N. Return the value of exponent x.`,
+    }, {
+        title: 'while-1',
+        name: 'morningJog',
+        inputs: [
+            '(1, 3)',
+            '(1, 6)',
+            '(2, 5)',
+            '(2, 6)',
+            '(3, 12)',
+            '(3, 13)',
+            '(3, 26)',
+            '(10, 30)',
+            '(10, 100)',
+            '(100, 101)',
+        ],
+        question: `As a future athlete you just started your practice for an upcoming event. Given that on the first day you run x miles, and by the event you must be able to run y miles. Calculate the number of days required for you to finally reach the required distance for the event, if you increases your distance each day by 10% from the previous day. Return an integer representing the number of days to reach the required distance. `,
+    }, {
+        title: 'for-1',
+        name: 'sumCubes',
+        inputs: [
+            '(3)',
+            '(1)',
+            '(2)',
+            '(4)',
+            '(5)',
+            '(6)',
+            '(7)',
+            '(8)',
+            '(9)',
+            '(10)',
+            '(20)',
+            '(30)',
+        ],
+        question: `For the given integer N calculate the following sum: 1^3 + 2^3 + 3^3 + ... + N^3. `,
+    }, {
+        title: 'for-1',
+        name: 'addingFactorials',
+        inputs: [
+            '(3)',
+            '(6)',
+            '(2)',
+            '(4)',
+            '(5)',
+            '(1)',
+            '(7)',
+            '(8)',
+            '(9)',
+            '(10)',
+            '(20)',
+            '(30)',
+        ],
+        question: `Given an integer n, print the sum 1! + 2! + 3! + ... + n!. This problem has a solution with only one loop, so try to discover it. And don't use the math library!`,
+    }, {
+        title: 'for-1',
+        name: 'primes',
+        inputs: [
+            '(3)',
+            '(6)',
+            '(11)',
+            '(17)',
+            '(36)',
+            '(141)',
+            '(137)',
+            '(42)',
+            '(49)',
+            '(10)',
+            '(23)',
+            '(37)',
+        ],
+        question: `Given an integer n, check to see if it's a prime number. Return true if prime and false if not prime.`,
     }
 ];

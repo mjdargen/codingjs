@@ -34,5 +34,5 @@ module.exports = [
             '(15431543)',
         ],
         question: `For a given integer N, find the greatest integer x where 2^x is less than or equal to N. Return the value of exponent x.`,
-    },
-]
+    }
+];

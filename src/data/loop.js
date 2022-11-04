@@ -86,22 +86,6 @@ module.exports = [
         question: `In mathematics, the factorial of an integer n, denoted by n! is the following product: n!=1*2*...*n. For the given integer n, calculate the value n!. Don't use math module in this exercise.`,
     }, {
         title: 'for-1',
-        name: 'addingFactorials',
-        inputs: [
-            '(3)',
-            '(6)',
-            '(2)',
-            '(4)',
-            '(5)',
-            '(1)',
-            '(7)',
-            '(8)',
-            '(9)',
-            '(10)',
-        ],
-        question: `Given an integer n, print the sum 1! + 2! + 3! + ... + n!. This problem has a solution with only one loop, so try to discover it. And don't use the math library!`,
-    }, {
-        title: 'for-1',
         name: 'primes',
         inputs: [
             '(3)',
@@ -118,5 +102,21 @@ module.exports = [
             '(37)',
         ],
         question: `Given an integer n, check to see if it's a prime number. Return true if prime and false if not prime.`,
+    }, {
+        title: 'for-1',
+        name: 'addingFactorials',
+        inputs: [
+            '(3)',
+            '(6)',
+            '(2)',
+            '(4)',
+            '(5)',
+            '(1)',
+            '(7)',
+            '(8)',
+            '(9)',
+            '(10)',
+        ],
+        question: `Given an integer n, print the sum 1! + 2! + 3! + ... + n!. This problem has a solution with only one loop, so try to discover it. And don't use the math library!`,
     }
 ];

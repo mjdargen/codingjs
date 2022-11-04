@@ -45,6 +45,13 @@ solutions.factorial = function (n) {
     return fac;
 };
 
+solutions.primes = function (n) {
+    for (let i = 2; i < n; i++) {
+        if (n % i == 0) return false
+    }
+    return true;
+};
+
 solutions.addingFactorials = function (n) {
     let partialFactorial = 1;
     let partialSum = 0;
@@ -53,13 +60,6 @@ solutions.addingFactorials = function (n) {
         partialSum += partialFactorial;
     }
     return partialSum;
-};
-
-solutions.primes = function (n) {
-    for (let i = 2; i < n; i++) {
-        if (n % i == 0) return false
-    }
-    return true;
 };
 
 module.exports = solutions;

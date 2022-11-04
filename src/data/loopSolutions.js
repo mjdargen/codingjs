@@ -21,10 +21,10 @@ solutions.powerTwo = function (n) {
 };
 
 solutions.morningJog = function (x, y) {
-    let i = 1;
+    let i = 1;  // days
     while (x < y) {
-        x *= 1.1;
-        i += 1;
+        x *= 1.1; // x = x * 1.1;
+        i++;  // i = i + 1
     }
     return i;
 };
@@ -35,6 +35,14 @@ solutions.sumCubes = function (n) {
         res += i ** 3;
     }
     return res;
+};
+
+solutions.factorial = function (n) {
+    let fac = 1;
+    for (let i = 1; i < n + 1; i++) {
+        fac *= i;
+    }
+    return fac;
 };
 
 solutions.addingFactorials = function (n) {

@@ -70,6 +70,22 @@ module.exports = [
         question: `For the given integer N calculate the following sum: 1^3 + 2^3 + 3^3 + ... + N^3. `,
     }, {
         title: 'for-1',
+        name: 'factorial',
+        inputs: [
+            '(3)',
+            '(6)',
+            '(2)',
+            '(4)',
+            '(5)',
+            '(1)',
+            '(7)',
+            '(8)',
+            '(9)',
+            '(10)',
+        ],
+        question: `In mathematics, the factorial of an integer n, denoted by n! is the following product: n!=1*2*...*n. For the given integer n, calculate the value n!. Don't use math module in this exercise.`,
+    }, {
+        title: 'for-1',
         name: 'addingFactorials',
         inputs: [
             '(3)',

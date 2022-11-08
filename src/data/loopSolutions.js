@@ -62,4 +62,22 @@ solutions.addingFactorials = function (n) {
     return partialSum;
 };
 
+
+solutions.runningSum = function (n) {
+    let sum = 0;
+    for (let i = 0; i <= n; i++) {
+        sum += i;
+    }
+    return sum;
+};
+
+
+solutions.approximatingPi = function (n) {
+    let pi = 0.0;
+    for (let i = 0; i < n; i++) {
+        pi += (-1) ** i * 4 / (2 * i - 1);
+    }
+    return pi;
+};
+
 module.exports = solutions;

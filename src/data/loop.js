@@ -149,6 +149,6 @@ module.exports = [
             '(9)',
             '(10)',
         ],
-        question: `Given an integer n, return an approximation for pi using the <a href="https://en.wikipedia.org/wiki/Leibniz/_formula/_for/_%CF%80">Leibniz formula</a> with n number of terms. The series is: pi = 4 (1/1 - 1/3 + 1/5 - 1/7 ...). Note the sign alternates and the denominator is 2n-1. Calculate pi using the number of terms specified in the input value.`,
+        question: `Given an integer n, return an approximation for pi using the Leibniz formula (https://en.wikipedia.org/wiki/Leibniz/_formula/_for/_%CF%80) with n number of terms. The series is: pi = 4 (1/1 - 1/3 + 1/5 - 1/7 ...). Note the sign alternates and the denominator is 2*k-1. Calculate pi using the number of terms specified in the input value.`,
     }
 ];

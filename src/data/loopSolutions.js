@@ -75,7 +75,7 @@ solutions.runningSum = function (n) {
 solutions.approximatingPi = function (n) {
     let pi = 0.0;
     for (let i = 0; i < n; i++) {
-        pi += (-1) ** i * 4 / (2 * i - 1);
+        pi += (-1) ** i * 4 / (2 * i + 1);
     }
     return pi;
 };

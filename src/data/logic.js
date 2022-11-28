@@ -1088,7 +1088,7 @@ module.exports = [
       move forward 2 spaces. There are some special cases for when they can take a piece diagonally; however, we will
       only consider the first two cases described where the move forward either one or two spaces. Given two different
       cells of the chessboard, determine whether a pawn can go from the first cell to the second in one move. Positions are
-      given in as pawn(x1, y1, x2, y2).`,
+      given in as pawn(x1, y1, x2, y2).<br><img src="./img/chess_board.png" alt="Chess Board Coordinates" width="400">`,
   }, {
     title: 'Chess',
     name: 'rook',
@@ -1277,7 +1277,8 @@ module.exports = [
     ],
     question: `Rooks can move any number of squares vertically or horizontally. Examples: move 3 to the left,
     move 2 to the right, move 6 up, move 1 down. Given two different cells of the chessboard, determine whether a
-      rook can go from the first cell to the second in one move. Positions are given in as rook(x1, y1, x2, y2).`,
+      rook can go from the first cell to the second in one move. Positions are given in as rook(x1, y1, x2, y2).
+      <br><img src="./img/chess_board.png" alt="Chess Board Coordinates" width="400">`,
   }, {
     title: 'Chess',
     name: 'king',
@@ -1467,7 +1468,7 @@ module.exports = [
     question: `Kings can move only one square in any direction: horizontally, vertically, diagonally. Examples: move 1 to
       the left, move 1 to the right, move 1 up, move 1 to the upper left. Given two different cells of the
       chessboard, determine whether a king can go from the first cell to the second in one move. Positions are
-      given in as king(x1, y1, x2, y2).`,
+      given in as king(x1, y1, x2, y2).<br><img src="./img/chess_board.png" alt="Chess Board Coordinates" width="400">`,
   }, {
     title: 'Chess',
     name: 'bishop',
@@ -1656,7 +1657,8 @@ module.exports = [
     ],
     question: `Bishops can move any number of squares diagonally. Examples: Move 1 to the upper left, move 6 to the lower
       right. Hint: absolute value may be helpful. Given two different squares of the chessboard, determine
-      whether a bishop can go from the first to the second in one move. Positions are given in as bishop(x1, y1, x2, y2).`,
+      whether a bishop can go from the first to the second in one move. Positions are given in as bishop(x1, y1, x2, y2).
+      <br><img src="./img/chess_board.png" alt="Chess Board Coordinates" width="400">`,
   }, {
     title: 'Chess',
     name: 'queen',
@@ -1846,7 +1848,7 @@ module.exports = [
     question: `Queens can move any number of squares in in any direction: horizontally, vertically, diagonally. Examples:
       move 4 to the left, move 2 to the right, move 6 up, move 2 to the upper left. Given two different cells of
       the chessboard, determine whether a queen can go from the first cell to the second in one move. Positions are
-      given in as queen(x1, y1, x2, y2).`,
+      given in as queen(x1, y1, x2, y2).<br><img src="./img/chess_board.png" alt="Chess Board Coordinates" width="400">`,
   }, {
     title: 'Chess',
     name: 'knight',
@@ -2036,6 +2038,7 @@ module.exports = [
     question: `Knights can only move in "L" shapes. They either move 2 squares horizontally then 1 square
       vertically, or 2 squares vertically then 1 square horizontally. They can move in this L-shape in
       any direction. Given two different cells of the chessboard, determine whether a knight can go from
-      the first cell to the second in one move. Positions are given in as king(x1, y1, x2, y2).`,
+      the first cell to the second in one move. Positions are given in as king(x1, y1, x2, y2).
+      <br><img src="./img/chess_board.png" alt="Chess Board Coordinates" width="400">`,
   }
 ];

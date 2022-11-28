@@ -1,6 +1,6 @@
 let $ = require("jquery");
 let _ = require("lodash");
-let ts = require("typescript"); 
+let ts = require("typescript");
 let CodeMirror = require("codemirror-minified");
 
 let exercises = require("./allExercisesIncludingHidden.js");
@@ -47,7 +47,10 @@ keyboardShortcuts(editor, exerciseName);
 // display exercise page
 $('#title').text(exercise.title);
 $('#name').text(exercise.name);
-$('#problem').text(exercise.question);
+if (exercise.question.includes("<img") && exercise.question.includes("<br>"))
+  $('#problem').html(exercise.question);
+else
+  $('#problem').text(exercise.question);
 
 setInitialEditorContents(editor, exerciseName, exercise);
 displayExampleRuns(exercise, exerciseName);

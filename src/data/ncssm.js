@@ -2,7 +2,7 @@ module.exports = [
 
   /* Module 4.1: Types, Variables, I/O */
   {
-    title: 'Module 4.1: Introduction',
+    title: 'Module-4_1',
     name: 'helloWorld',
     inputs: [
       '()',
@@ -17,7 +17,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
   },
 
   {
-    title: 'Module 4.1: Introduction',
+    title: 'Module-4_1',
     name: 'sum',
     inputs: [
       '(3, 2)',
@@ -31,7 +31,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
   },
 
   {
-    title: 'Module 4.1: Introduction',
+    title: 'Module-4_1',
     name: 'nextNum',
     inputs: [
       '(0)',
@@ -44,7 +44,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
   },
 
   {
-    title: 'Module 4.1: Introduction',
+    title: 'Module-4_1',
     name: 'minutesToSeconds',
     inputs: [
       '(5)',
@@ -57,7 +57,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
   },
 
   {
-    title: 'Module 4.1: Introduction',
+    title: 'Module-4_1',
     name: 'returnSomething',
     inputs: [
       '("is better than nothing")',
@@ -72,7 +72,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
 
   /* Module 4.2: Conversions & Arithmetic */
   {
-    title: 'Module 4.2: Arithmetic',
+    title: 'Module-4_2',
     name: 'tempConversion',
     inputs: [
       '(212)',
@@ -86,7 +86,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
 
   /* Module 4.3: Strings */
   {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'helloName',
     inputs: [
       "('Bob')",
@@ -102,7 +102,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: 'Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".',
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'makeAbba',
     inputs: [
       "('Hi', 'Bye')",
@@ -117,7 +117,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     question: `Given two strings, a and b, return the result of putting them together
               in the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".`,
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'makeTags',
     question: `The web is built with HTML strings like "<em>Yay</em>" which draws
             Yay as italic text. In this example, the "em" tag makes <em> and </em>
@@ -134,7 +134,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
       "('em', '')",
     ],
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'makeOutWord',
     inputs: [
       "('<<>>', 'Yay')",
@@ -148,7 +148,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
               e.g. "<<word>>". Note: use str.substring(i, j) to extract the String starting
                at index i and going up to but not including index j.`,
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'extraEnd',
     inputs: [
       "('Hello')",
@@ -160,7 +160,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     question: `Given a string, return a new string made of 3 copies of the
               last 2 chars of the original string. The string length will be at least 2.`,
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'firstTwo',
     inputs: [
       "('Hello')",
@@ -177,7 +177,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
               return whatever there is, so "X" yields "X", and the empty string "" yields
               the empty string "". Note that str.length() returns the length of a string.`,
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'firstHalf',
     inputs: [
       "('WooHoo')",
@@ -190,7 +190,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: 'Given a string of even length, return the first half. So the string "WooHoo" yields "Woo".',
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'withoutEnd',
     inputs: [
       "('Hello')",
@@ -205,7 +205,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     question: `Given a string, return a version without the first and last
                 char, so "Hello" yields "ell". The string length will be at least 2.`,
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'nonStart',
     inputs: [
       "('Hello', 'There')",
@@ -221,7 +221,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     question: `Given 2 strings, return their concatenation, except omit the
                 first char of each. The strings will be at least length 1.`,
   }, {
-    title: 'Module 4.3: Strings',
+    title: 'Module-4_3',
     name: 'left2',
     inputs: [
       "('Hello')",
@@ -239,7 +239,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
 
   /* Module 4.4: Conditional Statements */
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'cigarParty',
     inputs: [
       '(30, false)',
@@ -260,7 +260,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     true if the party with the given values is successful, or false otherwise.`,
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'dateFashion',
     inputs: [
       '(5, 10)',
@@ -284,7 +284,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     Otherwise the result is 1 (maybe).`,
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'squirrelPlay',
     inputs: [
       '(70, false)',
@@ -307,7 +307,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     return true if the squirrels play and false otherwise.`,
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'caughtSpeeding',
     inputs: [
       '(60, false)',
@@ -330,7 +330,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     your speed can be 5 higher in all cases.`,
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'sortaSum',
     inputs: [
       '(3, 4)',
@@ -347,7 +347,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     inclusive, are forbidden, so in that case just return 20.`,
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'alarmClock',
     inputs: [
       '(1, false)',
@@ -367,7 +367,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     and weekends it should be "off".`,
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'love6',
     inputs: [
       '(6, 4)',
@@ -396,7 +396,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     Math.abs(num) computes the absolute value of a number.`,
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'in1To10',
     inputs: [
       '(5, false)',
@@ -417,7 +417,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     equal to 1, or greater or equal to 10.`,
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'specialEleven',
     inputs: [
       '(22)',
@@ -446,7 +446,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     "mod" operator.`, // TODO add info on mod, up to and incl exercise nearTen
   },
   {
-    title: 'Module 4.4: Conditional Statements',
+    title: 'Module-4_4',
     name: 'more20',
     inputs: [
       '(20)',
@@ -480,7 +480,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
 
   /* Module 4.6: Loops */
   {
-    title: 'Module 4.6: while Loops',
+    title: 'Module-4_6',
     name: 'leastDivisor',
     inputs: [
       '(15)',
@@ -497,7 +497,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: `Given an integer not less than 2. Print its smallest integer divisor greater than 1.`,
   }, {
-    title: 'Module 4.6: while Loops',
+    title: 'Module-4_6',
     name: 'powerTwo',
     inputs: [
       '(50)',
@@ -515,7 +515,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: `For a given integer N, find the greatest integer x where 2^x is less than or equal to N. Return the value of exponent x.`,
   }, {
-    title: 'Module 4.6: while Loops',
+    title: 'Module-4_6',
     name: 'morningJog',
     inputs: [
       '(1, 3)',
@@ -531,7 +531,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: `As a future athlete you just started your practice for an upcoming event. Given that on the first day you run x miles, and by the event you must be able to run y miles. Calculate the number of days required for you to finally reach the required distance for the event, if you increases your distance each day by 10% from the previous day. Return an integer representing the number of days to reach the required distance. `,
   }, {
-    title: 'Module 4.6: for Loops',
+    title: 'Module-4_6',
     name: 'sumCubes',
     inputs: [
       '(3)',
@@ -549,7 +549,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: `For the given integer N calculate the following sum: 1^3 + 2^3 + 3^3 + ... + N^3. `,
   }, {
-    title: 'Module 4.6: for Loops',
+    title: 'Module-4_6',
     name: 'factorial',
     inputs: [
       '(3)',
@@ -565,7 +565,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: `In mathematics, the factorial of an integer n, denoted by n! is the following product: n!=1*2*...*n. For the given integer n, calculate the value n!. Don't use math module in this exercise.`,
   }, {
-    title: 'Module 4.6: for Loops',
+    title: 'Module-4_6',
     name: 'primes',
     inputs: [
       '(3)',
@@ -583,7 +583,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: `Given an integer n, check to see if it's a prime number. Return true if prime and false if not prime.`,
   }, {
-    title: 'Module 4.6: for Loops',
+    title: 'Module-4_6',
     name: 'addingFactorials',
     inputs: [
       '(3)',
@@ -599,7 +599,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: `Given an integer n, return the sum 1! + 2! + 3! + ... + n!. This problem has a solution with only one loop, so try to discover it. And don't use the math library!`,
   }, {
-    title: 'Module 4.6: for Loops',
+    title: 'Module-4_6',
     name: 'runningSum',
     inputs: [
       '(3)',
@@ -615,7 +615,7 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
     ],
     question: `Given an integer n, return the sum of integers from 1 to n. If n=4, return 1+2+3+4 or 10.`,
   }, {
-    title: 'Module 4.6: for Loops',
+    title: 'Module-4_6',
     name: 'approximatingPi',
     inputs: [
       '(3)',

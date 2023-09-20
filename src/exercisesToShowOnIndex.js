@@ -10,7 +10,7 @@ let mapExercises = require("./data/map.js");
 // let quizExercises = require("./data/quiz.js");
 
 
-let mainPageExercises = [...warmupExercises, ...stringExercises, ...logicExercises, ...arrayExercises, ...recursionExercises,
+let mainPageExercises = [...ncssmExercises, ...chessExercises, ...warmupExercises, ...stringExercises, ...logicExercises, ...arrayExercises, ...recursionExercises,
 ...apExercises, ...mapExercises];
 
 module.exports = mainPageExercises;

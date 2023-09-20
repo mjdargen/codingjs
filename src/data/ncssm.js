@@ -7,13 +7,13 @@ module.exports = [
     inputs: [
       '()',
     ],
-    question: `This is an introduction to how these challenges will work. You will see a starter function that looks like this:<br>
+    question: `This is an introduction to how these challenges will work. You will see a starter function that looks like this:<p>
 <pre>
 function helloWorld() {
 
 }
-</pre><br>
-All you have to do is type <code>return "Hello, world!"</code> between the curly braces { } and then click the Solve button. If you did this correctly, you will see green checks next to all the tests.`,
+</pre>
+<p>All you have to do is type <code>return "Hello, world!";</code> between the curly braces { } and then click the Solve button. If you did this correctly, you will see green checks next to all the tests.`,
   },
 
   {
@@ -82,6 +82,123 @@ All you have to do is type <code>return "Hello, world!"</code> between the curly
       '(75)'
     ],
     question: `Given a temperature in Fahrenheit, convert it to Celsius.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'perimeter',
+    inputs: [
+      '(10, 5)',
+      '(2, 3)',
+      '(4, 2)',
+      '(5, 2)',
+      '(3, 8)'
+    ],
+    question: `Given the width and length of a rectangle, compute the perimeter.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'areaTriangle',
+    inputs: [
+      '(3, 2)',
+      '(7, 4)',
+      '(4, 2)',
+      '(10, 10)',
+      '(3, 8)'
+    ],
+    question: `Given the base and height of a triangle, compute the area.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'basketball',
+    inputs: [
+      '(3, 2)',
+      '(7, 4)',
+      '(4, 2)',
+      '(10, 3)',
+      '(3, 8)'
+    ],
+    question: `Given the number of 2-pointers scored and 3-pointers scored, find the total number of points scored by a player.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'soccer',
+    inputs: [
+      '(3, 4, 2)',
+      '(7, 4, 1)',
+      '(4, 2, 2)',
+      '(10, 3, 0)',
+      '(3, 8, 4)'
+    ],
+    question: `Given the number of wins, draws, and losses, calculate the number of points a soccer team has in the world cup.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'ageInDays',
+    inputs: [
+      '(65)',
+      '(0)',
+      '(20)',
+      '(21)',
+      '(22)'
+    ],
+    question: `Given the age of a person in years, compute roughly how many days old they are. Do not factor in how many days it's been since their birthday (we don't have this info). Ignore leap years.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'ageInDaysLeap',
+    inputs: [
+      '(65)',
+      '(0)',
+      '(20)',
+      '(21)',
+      '(22)'
+    ],
+    question: `Given the age of a person in years, compute roughly how many days old they are. Do not factor in how many days it's been since their birthday (we don't have this info). However, you must now factor in leap years. Assume the person was born in a leap year.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'mulberries1',
+    inputs: [
+      '(136)',
+      '(97)',
+      '(42)',
+      '(33)',
+      '(49)'
+    ],
+    question: `Given the number of mulberries and the number of people, determine the number each person would receive if they are divided up evenly.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'mulberries2',
+    inputs: [
+      '(136)',
+      '(97)',
+      '(42)',
+      '(33)',
+      '(49)'
+    ],
+    question: `Given the number of mulberries and the number of people, determine how many would be leftover after evenly dividing them up between each person.`,
+  },
+
+  {
+    title: 'Module-4_2',
+    name: 'minutesFromMidnight',
+    inputs: [
+      '(190)',
+      '(150)',
+      '(444)',
+      '(1111)',
+      '(1439)'
+    ],
+    question: `Given the number of minutes that have passed since midnight, Compute the time (i.e. the number of hours and minutes since midnight) that would be displayed on a 24h clock. Your function should return two numbers: the number of hours (between 0 and 23) and the number of minutes (between 0 and 59). Do not worry about leading zeros.`,
   },
 
   /* Module 4.3: Strings */

@@ -3,7 +3,7 @@
 let solutions = {};
 
 /* Module 4.1: Types, Variables, I/O */
-solutions.helloWorld = function (name) {
+solutions.helloWorld = function () {
   return "Hello, world!";
 }
 
@@ -27,6 +27,44 @@ solutions.returnSomething = function (text) {
 /* Module 4.2: Conversions & Arithmetic */
 solutions.tempConversion = function (tempF) {
   return (tempF - 32) * 5 / 9;
+}
+
+solutions.perimeter = function (width, length) {
+  return 2 * width + 2 * length;
+}
+
+solutions.areaTriangle = function (base, height) {
+  return base * height / 2;
+}
+
+solutions.basketball = function (twoPoints, threePoints) {
+  return twoPoints * 2 + threePoints * 3;
+}
+
+solutions.basketball = function (wins, losses, draws) {
+  return wins * 3 + draws * 1;
+}
+
+solutions.ageInDays = function (age) {
+  return age * 365;
+}
+
+solutions.ageInDaysLeap = function (age) {
+  return age * 365 + Math.ceil(age / 4);
+}
+
+solutions.mulberries1 = function (mulberries, people) {
+  return Math.floor(mulberries / people);
+}
+
+solutions.mulberries2 = function (mulberries, people) {
+  return mulberries % people;
+}
+
+solutions.minutesFromMidnight = function (minutes) {
+  let hours = Math.floor(n / 60);
+  let mins = n % 60;
+  return `${hours}:${mins}`;
 }
 
 

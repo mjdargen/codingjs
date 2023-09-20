@@ -35,7 +35,7 @@ let editor = CodeMirror.fromTextArea(document.getElementById("answer"), {
   }
 });
 
-// Work out which excercise to show
+// Work out which exercise to show
 const urlParams = deParam(window.location.search);
 const exerciseName = urlParams.name || exercises[0].name;
 /** here we match the exerciseName (from querystring) to the problem in exercise obj**/

@@ -1,3 +1,5 @@
+let ncssmSolutions = require("./data/ncssmSolutions.js");
+let chessSolutions = require("./data/chessSolutions.js");
 let warmupSolutions = require("./data/warmupSolutions.js");
 let stringSolutions = require("./data/stringSolutions.js");
 let recursionSolutions = require("./data/recursionSolutions.js");
@@ -5,9 +7,7 @@ let logicSolutions = require("./data/logicSolutions.js");
 let arraySolutions = require("./data/arraySolutions.js");
 let apSolutions = require("./data/apSolutions.js");
 let mapSolutions = require("./data/mapSolutions.js");
-let quizSolutions = require("./data/quizSolutions.js");
-let loopSolutions = require("./data/loopSolutions.js");
-
+// let quizSolutions = require("./data/quizSolutions.js");
 
 // this ES2018 spread syntax was causing browserify problems, so I replaced it below...
 // let solutions = {...warmupSolutions, ...stringSolutions };
@@ -24,8 +24,8 @@ let solutions = Object.assign({},
     arraySolutions,
     apSolutions,
     mapSolutions,
-    quizSolutions,
-    loopSolutions
+    ncssmSolutions,
+    chessSolutions
 );
 
 module.exports = solutions;

@@ -3,68 +3,6 @@
 
 let solutions = {};
 
-solutions.helloName = function (name) {
-  return `Hello ${name}!`;
-};
-
-solutions.makeAbba = function (a, b) {
-  return a + b + b + a;
-};
-
-solutions.makeOutWord = function (out, word) {
-  front = out.substring(0, 2);
-  back = out.substring(2, 4);
-  return front + word + back;
-};
-
-solutions.extraEnd = function (str) {
-  if (str.length > 1) {
-    back = str.substring(str.length - 2);
-    return back + back + back;
-  }
-};
-
-solutions.withoutEnd = function (str) {
-  return str.substring(1, str.length - 1);
-};
-
-solutions.comboString = function (a, b) {
-  if (a.length < b.length) {
-    return a + b + a;
-  } else {
-    return b + a + b;
-  }
-};
-
-solutions.nonStart = function (a, b) {
-  a = a.substring(1, a.length);
-  b = b.substring(1, b.length);
-  return a + b;
-};
-
-solutions.firstHalf = function (str) {
-  if (str.length % 2 == 0) {
-    return str.substring(0, Math.floor(str.length / 2));
-  }
-  return str;
-};
-
-solutions.firstTwo = function (str) {
-  if (str.length > 2) {
-    return str.substring(0, 2);
-  }
-  return str;
-};
-
-solutions.left2 = function (str) {
-  if (str.length > 1) {
-    front = str.substring(0, 2);
-    back = str.substring(2, str.length);
-    return back + front;
-  }
-  return str;
-};
-
 solutions.right2 = function (str) {
   if (str.length > 1) {
     back = str.substring(str.length - 2, str.length);
@@ -95,6 +33,14 @@ solutions.middleTwo = function (str) {
     return mid;
   }
   return str;
+};
+
+solutions.comboString = function (a, b) {
+  if (a.length < b.length) {
+    return a + b + a;
+  } else {
+    return b + a + b;
+  }
 };
 
 solutions.endsLy = function (str) {

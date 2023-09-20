@@ -7,7 +7,7 @@ module.exports = [
     inputs: [
       '()',
     ],
-    question: `This is an introduction to how these challenges will work. You will see a starter function that looks like this:<p>
+    question: `This is an introduction to how these challenges will work. You will see a starter function that looks like this:</p>
 <pre>
 function helloWorld() {
 
@@ -190,7 +190,7 @@ function helloWorld() {
 
   {
     title: 'Module-4_2',
-    name: 'minutesFromMidnight',
+    name: 'minutesMidnight',
     inputs: [
       '(190)',
       '(150)',

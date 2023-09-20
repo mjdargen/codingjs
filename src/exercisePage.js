@@ -47,7 +47,8 @@ keyboardShortcuts(editor, exerciseName);
 // display exercise page
 $('#title').text(exercise.title);
 $('#name').text(exercise.name);
-if (exercise.question.includes("<img") && exercise.question.includes("<br>"))
+// if ((exercise.question.includes("<img") && exercise.question.includes("<br>")) || (exercise.question.includes("<pre") && exercise.question.includes("<br>")))
+if (exercise.name !== "makeTags")
   $('#problem').html(exercise.question);
 else
   $('#problem').text(exercise.question);

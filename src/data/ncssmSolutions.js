@@ -41,7 +41,7 @@ solutions.basketball = function (twoPoints, threePoints) {
   return twoPoints * 2 + threePoints * 3;
 }
 
-solutions.basketball = function (wins, losses, draws) {
+solutions.soccer = function (wins, losses, draws) {
   return wins * 3 + draws * 1;
 }
 

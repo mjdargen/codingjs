@@ -166,11 +166,11 @@ function helloWorld() {
     title: 'Module-4_2',
     name: 'mulberries1',
     inputs: [
-      '(136)',
-      '(97)',
-      '(42)',
-      '(33)',
-      '(49)'
+      '(136, 10)',
+      '(97, 10)',
+      '(42, 5)',
+      '(33, 8)',
+      '(49, 4)'
     ],
     question: `Given the number of mulberries and the number of people, determine the number each person would receive if they are divided up evenly.`,
   },
@@ -179,11 +179,11 @@ function helloWorld() {
     title: 'Module-4_2',
     name: 'mulberries2',
     inputs: [
-      '(136)',
-      '(97)',
-      '(42)',
-      '(33)',
-      '(49)'
+      '(136, 10)',
+      '(97, 10)',
+      '(42, 5)',
+      '(33, 8)',
+      '(49, 4)'
     ],
     question: `Given the number of mulberries and the number of people, determine how many would be leftover after evenly dividing them up between each person.`,
   },
@@ -292,7 +292,7 @@ function helloWorld() {
     question: `Given a string, return the string made of its first two chars,
               so the String "Hello" yields "He". If the string is shorter than length 2,
               return whatever there is, so "X" yields "X", and the empty string "" yields
-              the empty string "". Note that str.length() returns the length of a string.`,
+              the empty string "". Note that str.length returns the length of a string.`,
   }, {
     title: 'Module-4_3',
     name: 'firstHalf',
@@ -667,6 +667,22 @@ function helloWorld() {
     question: `For the given integer N calculate the following sum: 1^3 + 2^3 + 3^3 + ... + N^3. `,
   }, {
     title: 'Module-4_6',
+    name: 'runningSum',
+    inputs: [
+      '(3)',
+      '(6)',
+      '(4)',
+      '(2)',
+      '(5)',
+      '(1)',
+      '(7)',
+      '(8)',
+      '(9)',
+      '(10)',
+    ],
+    question: `Given an integer n, return the sum of integers from 1 to n. For example if n=4, return 1+2+3+4 or 10. Be sure to use loops to solve this exercise.`,
+  }, {
+    title: 'Module-4_6',
     name: 'factorial',
     inputs: [
       '(3)',
@@ -715,22 +731,6 @@ function helloWorld() {
       '(10)',
     ],
     question: `Given an integer n, return the sum 1! + 2! + 3! + ... + n!. This problem has a solution with only one loop, so try to discover it. And don't use the math library!`,
-  }, {
-    title: 'Module-4_6',
-    name: 'runningSum',
-    inputs: [
-      '(3)',
-      '(6)',
-      '(4)',
-      '(2)',
-      '(5)',
-      '(1)',
-      '(7)',
-      '(8)',
-      '(9)',
-      '(10)',
-    ],
-    question: `Given an integer n, return the sum of integers from 1 to n. If n=4, return 1+2+3+4 or 10.`,
   }, {
     title: 'Module-4_6',
     name: 'approximatingPi',

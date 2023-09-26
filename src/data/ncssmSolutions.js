@@ -62,8 +62,8 @@ solutions.mulberries2 = function (mulberries, people) {
 }
 
 solutions.minutesMidnight = function (minutes) {
-  let hours = Math.floor(n / 60);
-  let mins = n % 60;
+  let hours = Math.floor(minutes / 60);
+  let mins = minutes % 60;
   return `${hours}:${mins}`;
 }
 
